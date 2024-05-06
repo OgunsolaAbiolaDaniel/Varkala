@@ -1,11 +1,11 @@
-import React from 'react'
-
+import React from "react";
+import Header from "../Header/Header";
 function Firstsection() {
   return (
-    <>
-    <h1 className="text-orange-600">Hello World</h1>
-    </>
-    )
+    <div>
+      <Header/>
+    </div>
+  );
 }
 
-export default Firstsection
+export default Firstsection;
