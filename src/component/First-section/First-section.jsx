@@ -1,11 +1,13 @@
-import React from 'react'
-
+import React from "react";
+import Header from "../Header/Header";
+import Navbar from "../Navbar/Navbar";
 function Firstsection() {
   return (
-    <>
-    <h1 className="text-orange-600">Hello World</h1>
-    </>
-    )
+    <div>
+      <Header />
+      <Navbar/>
+    </div>
+  );
 }
 
-export default Firstsection
+export default Firstsection;
