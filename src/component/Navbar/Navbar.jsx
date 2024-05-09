@@ -7,13 +7,14 @@ import { CiHeart } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
 import { RiMenu3Line } from "react-icons/ri";
 import { FiShoppingBag } from "react-icons/fi";
-import Home from '@/app/page';
+
 import ProfileStatus from '../Profile/ProfileStatus';
+import ShoppingBag from '../ShoppingBag/ShoppingBag';
 
 
 function Navbar() {
     const [userprofile, setUserProfile] = useState(false);
-
+    const [shoppingBag, setShoppingBag] = useState(false);
 
     function openUserProfileDiv() {
         setUserProfile(true)
@@ -21,7 +22,12 @@ function Navbar() {
     function closeUserProfile() {
         setUserProfile(false);
     }
-
+  function openShoppingBag() {
+      setShoppingBag(true)
+  }
+  function closeShoppingBag() {
+    setShoppingBag(false)
+  }
 
 
   return (
@@ -81,7 +87,11 @@ function Navbar() {
           <button type="button" className="bg-transparent border-none p-2">
             <CiHeart />
           </button>
-          <button type="button" className="bg-transparent border-none p-2">
+          <button
+            type="button"
+            className="bg-transparent border-none p-2"
+            onClick={openShoppingBag}
+          >
             <FiShoppingBag />
           </button>
         </div>
@@ -93,6 +103,7 @@ function Navbar() {
         </div>
       </nav>
       {userprofile ? <ProfileStatus onClose={closeUserProfile} /> : null}
+      {shoppingBag ? <ShoppingBag onClose={closeShoppingBag} /> : null}
     </div>
   );
 }
