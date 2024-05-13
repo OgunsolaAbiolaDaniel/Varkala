@@ -19,7 +19,7 @@ function ProfileStatus({onClose}) {
    
         
   return (
-    <div className="bg-white z-10 m-3 mt-2 h-auto flex flex-col gap-5 justify-around absolute shadow-2xl p-12 top-4 right-1 left-1">
+    <div className="bg-white z-10 m-3 mt-2 h-auto flex flex-col gap-5 justify-around absolute shadow-[0_35px_60px_5000px_rgba(0,0,0,0.3)] p-12 top-4 right-1 left-1 lg:w-[50%] lg:left-[25%] lg:top-20">
       <div>
         <button
           className="bg-transparent p-2 text-2xl absolute right-7 top-6"
