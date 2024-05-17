@@ -6,14 +6,17 @@ const products = [
       price: 149,
       originalPrice: 199,
       imageUrl: 'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0987188250_1_1_1.jpg',
+      hoverImageUrl: 'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0987188250_2_1_1.jpg',
       buttonText: 'Fresh',
     },
+    
     {
       id: 2,
       productName: 'Product 2',
       price: 149,
       originalPrice: 199,
       imageUrl: 'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0950354513_1_1_1.jpg',
+      hoverImageUrl:'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0950354513_2_1_1.jpg',
     },
     {
       id: 3,
@@ -21,7 +24,8 @@ const products = [
       price: 149,
       originalPrice: 199,
       imageUrl: 'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/5161335400_1_1_1.jpg',
-      buttonText: 'sale' 
+      hoverImageUrl:'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/5161335400_2_3_1.jpg',
+      buttonText: 'sale',
     },
 
     {
@@ -30,6 +34,7 @@ const products = [
         price: 149,
         originalPrice: 199,
         imageUrl: 'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0027211800_1_2_1.jpg',
+        hoverImageUrl:'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0027211800_2_1_1.jpg',
       },
   
   
@@ -39,6 +44,7 @@ const products = [
         price: 149,
         originalPrice: 199,
         imageUrl: 'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0144074800_1_1_1.jpg',
+        hoverImageUrl:'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0144074800_2_1_1.jpg',
       },
   
   
@@ -48,6 +54,7 @@ const products = [
         price: 149,
         originalPrice: 199,
         imageUrl: 'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0693492802_1_1_1.jpg',
+        hoverImageUrl:'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0693492802_2_1_1.jpg',
         buttonText: 'sold out' ,
       },
   
@@ -58,6 +65,7 @@ const products = [
         price: 149,
         originalPrice: 199,
         imageUrl: 'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0364326148_1_1_1.jpg',
+        hoverImageUrl:'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0364326148_2_1_1.jpg',
         buttonText: 'sold out' 
       },
   
@@ -68,6 +76,7 @@ const products = [
         price: 149,
         originalPrice: 199,
         imageUrl: 'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0931168712_1_1_1.jpg',
+        hoverImageUrl:'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0931168712_2_1_1.jpg',
       },
   
   
@@ -77,6 +86,7 @@ const products = [
         price: 149,
         originalPrice: 199,
         imageUrl: 'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/1000962306_1_1_1.jpg',
+        hoverImageUrl:'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/1000962306_2_1_1.jpg',
       },
   
   
@@ -86,6 +96,7 @@ const products = [
         price: 149,
         originalPrice: 199,
         imageUrl: 'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0915494643_1_1_1.jpg',
+        hoverImageUrl:'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0915494643_2_1_1.jpg',
       },
   
       {
@@ -94,6 +105,7 @@ const products = [
       price: 149,
       originalPrice: 199,
       imageUrl: 'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0907168607_1_1_1.jpg',
+      hoverImageUrl:'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0907168607_2_1_1.jpg',
     },
 
   {
@@ -102,6 +114,7 @@ const products = [
     price: 149,
     originalPrice: 199,
     imageUrl: 'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/5806513505_1_2_1.jpg',
+    hoverImageUrl:'https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/5806513505_2_1_1.jpg',
   },
 
               
