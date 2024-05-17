@@ -14,24 +14,48 @@ import { GiRolledCloth } from "react-icons/gi";
 
 function IconDropDownMenu() {
   return (
-    <div className="w-3/4 flex flex-col bg-white absolute top-36 left-[23%] shadow-xl">
+    <div className=" w-3/4 hidden lg:flex flex-col z-30 bg-white absolute top-36 left-[23%] shadow-xl">
       <div className="p-5 flex flex-col gap-10 basis-[80%]">
         <div className="flex">
-          <IConInfo label={"Trouser"}><GiTrousers/></IConInfo>
-          <IConInfo label={"Jacket"}><GiSleevelessJacket /></IConInfo>
-          <IConInfo label={"T-Shirts"}><FaTshirt/></IConInfo>
-          <IConInfo label={"Shirts"}><PiShirtFolded/></IConInfo>
-          <IConInfo label={"Pullover"}><GiMonclerJacket /></IConInfo>
-          <IConInfo label={"Shorts"}><GiShorts/></IConInfo>
+          <IConInfo label={"Trouser"}>
+            <GiTrousers />
+          </IConInfo>
+          <IConInfo label={"Jacket"}>
+            <GiSleevelessJacket />
+          </IConInfo>
+          <IConInfo label={"T-Shirts"}>
+            <FaTshirt />
+          </IConInfo>
+          <IConInfo label={"Shirts"}>
+            <PiShirtFolded />
+          </IConInfo>
+          <IConInfo label={"Pullover"}>
+            <GiMonclerJacket />
+          </IConInfo>
+          <IConInfo label={"Shorts"}>
+            <GiShorts />
+          </IConInfo>
         </div>
 
         <div className="flex">
-          <IConInfo label={"Watches"}><GiWatch/></IConInfo>
-          <IConInfo label={"Underwear"}><GiUnderwearShorts/></IConInfo>
-          <IConInfo label={"Bags"}><BiSolidShoppingBags/></IConInfo>
-          <IConInfo label={"Caps"}><PiBaseballCapDuotone/></IConInfo>
-          <IConInfo label={"Scarfs"}><GiRolledCloth/></IConInfo>
-          <IConInfo label={"Accessories"}><GiBowTie/></IConInfo>
+          <IConInfo label={"Watches"}>
+            <GiWatch />
+          </IConInfo>
+          <IConInfo label={"Underwear"}>
+            <GiUnderwearShorts />
+          </IConInfo>
+          <IConInfo label={"Bags"}>
+            <BiSolidShoppingBags />
+          </IConInfo>
+          <IConInfo label={"Caps"}>
+            <PiBaseballCapDuotone />
+          </IConInfo>
+          <IConInfo label={"Scarfs"}>
+            <GiRolledCloth />
+          </IConInfo>
+          <IConInfo label={"Accessories"}>
+            <GiBowTie />
+          </IConInfo>
         </div>
       </div>
 

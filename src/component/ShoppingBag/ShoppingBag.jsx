@@ -3,7 +3,7 @@ import { IoCloseOutline } from "react-icons/io5";
 import ShopItem from "@/component/ShoppingItem/ShoppingItem";
 function ShoppingBag({ onClose }) {
   return (
-    <div className="bg-white z-10 m-0 mt-0 h-100vh flex flex-col gap-8 justify-around absolute shadow-[0_35px_60px_5000px_rgba(0,0,0,0.3)] px-8 py-14 top-0 right-0 left-0 md:h-auto md:mx-16 lg:w-[50%] lg:ml-[50%] ">
+    <div className="bg-white z-30 m-0 mt-0 h-100vh flex flex-col gap-8 justify-around absolute shadow-[0_35px_60px_5000px_rgba(0,0,0,0.3)] px-8 py-14 top-0 right-0 left-0 md:h-auto md:mx-16 lg:w-[50%] lg:ml-[50%] ">
       <header className="">
         <button
           type="button"

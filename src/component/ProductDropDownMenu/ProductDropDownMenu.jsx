@@ -4,8 +4,8 @@ import Girlimg from "@/public/loftus.jpg";
 
 function ProductDropDownMenu() {
   return (
-    <div className="w-3/6 flex bg-white absolute top-36 left-[23%] shadow-xl">
-      <div className="p-10 basis-1/3">
+    <div className="hidden lg:flex w-3/6  z-30 bg-white absolute top-36 left-[23%] shadow-xl">
+      <div className="px-8 py-10 basis-1/3">
         <ul className="text-gray-400 font-semibold text-xs">
           <li className="text-black py-2 font-semibold">Shop Cards</li>
           <li className="py-2">Default</li>
@@ -15,9 +15,9 @@ function ProductDropDownMenu() {
         </ul>
       </div>
 
-      <div className="p-10 basis-1/3">
-              <ul className="text-gray-400 font-semibold text-xs">
-            <li className='py-3'>   </li>
+      <div className="px-8 py-10 basis-1/3">
+        <ul className="text-gray-400 font-semibold text-xs">
+          <li className="py-3"> </li>
           <li className="py-2 font-semibold">Product Card 4 </li>
           <li className="py-2">Product Card 5</li>
           <li className="py-2">Product Card 6</li>

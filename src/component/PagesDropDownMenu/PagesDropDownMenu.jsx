@@ -7,7 +7,7 @@ import ManTailor from '@/public/photo.jpg'
 
 function PagesDropDownMenu() {
   return (
-    <div className="w-full h-auto flex py-10 px-10 bg-white absolute top-32 shadow-xl">
+    <div className="w-full h-auto z-30 hidden lg:flex py-10 px-10 bg-white absolute top-32 shadow-xl">
       <div className="w-1/4 flex flex-col gap-4 px-3">
         <div>
           <Image
