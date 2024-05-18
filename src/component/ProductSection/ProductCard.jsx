@@ -12,7 +12,7 @@ const ProductCard = () => {
       {products.map((product, index) => (
         <div
           key={product.id}
-          className="relative w-full "
+          className="relative w-full"
         >
           {/* Conditionally render the button */}
           {product.buttonText && (

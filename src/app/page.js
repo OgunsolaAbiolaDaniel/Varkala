@@ -6,7 +6,8 @@ export default function Home() {
   return (
     <div className="bg-white m-0 p-0">
      <main>
-      <Firstsection/>
+        <Firstsection />
+        <ProductCard />
     </main>
     </div>
   );
