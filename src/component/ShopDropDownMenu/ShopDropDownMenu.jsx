@@ -34,7 +34,7 @@ function ShopDropDownMenu() {
 
       <div className="basis-1/3">
         <Image
-          className="object-cover  h-full w-full"
+          className="object-cover h-full w-full"
           src={Girlimg}
           width={700}
         />
