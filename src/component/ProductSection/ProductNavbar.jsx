@@ -24,3 +24,6 @@
 <img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0915494643_2_1_1.jpg" alt="product"></img>
 <img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/0907168607_2_1_1.jpg" alt="product"></img>
 <img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/5806513505_2_1_1.jpg" alt="product"></img>*/}</img>
+
+
+<div class="product-stars text-xs"><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-muted"></i><i class="fa fa-star text-muted"></i></div>
