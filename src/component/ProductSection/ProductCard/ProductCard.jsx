@@ -1,11 +1,15 @@
 import React from 'react';
 import Image from 'next/image';
-import ProductText from './ProductText';
-import products from './ProductData';
+import ProductText from '../ProductText/ProductText';
+import products from '../ProductData/ProductData';
+import ProductNavbar from '../ProductNavbar/ProductNavbar';
 
 const ProductCard = () => {
   return (
+
+
     <section id="Projects" className="container mx-auto px-4 py-8">
+    <ProductNavbar />
       <div className="grid grid-cols-2 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-4 justify-items-center">
         {products.map((product, index) => (
           <div key={product.id} className="relative group w-full">

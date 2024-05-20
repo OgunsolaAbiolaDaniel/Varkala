@@ -1,5 +1,5 @@
 import Firstsection from "@/component/First-section/First-section";
-import ProductCard from "@/component/ProductSection/ProductCard";
+import ProductCard from "@/component/ProductSection/ProductCard/ProductCard";
 
 export default function Home() {
   return (
