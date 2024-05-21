@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProductNav = () => {
   return (
-    <div className="flex flex-col sm:flex-row justify-between items-center mb-4">
+    <div className="flex flex-col sm:flex-row justify-between items-center mb-8">
       <div className="w-full sm:w-auto">
         <ul className="list-inline text-center sm:text-left mb-3 sm:mb-0">
           <li className="inline-block mx-2">
@@ -34,9 +34,9 @@ const ProductNav = () => {
       </div>
       <div className="w-full sm:w-auto text-center">
   <a
-    className="btn btn-link font-semibold px-0 text-base hover:underline hover:text-dark text-yellow-600"
+    className="btn btn-link  hover:underline hover:text-dark text-yellow-600"
     href="#"
-    style={{ lineHeight: '2rem', letterSpacing: '0.2rem' }}
+    style={{ letterSpacing: '0.2rem' }}
   >
     ALL PRODUCTS
   </a>
