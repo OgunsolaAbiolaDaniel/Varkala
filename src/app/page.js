@@ -1,11 +1,13 @@
 import Firstsection from "@/component/First-section/First-section";
-import ProductCard from "@/component/ProductSection/ProductCard/ProductCard";
+import ProductCard from "@/component/ProductSection/ProductCard";
+import Secondsection from "@/component/Second-section/Secondsection";
 
 export default function Home() {
   return (
-    <div className="bg-white">
-      <main className="container mx-auto"> 
+    <div className="bg-white m-0 p-0">
+      <main>
         <Firstsection />
+        <Secondsection />
         <ProductCard />
       </main>
     </div>
