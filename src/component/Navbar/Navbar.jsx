@@ -146,7 +146,7 @@ function Navbar() {
 
   return (
     <div className="flex-col">
-      <nav className="flex items-center px-2 mt-5 mb-0 py-3 bg-slate-400 justify-between lg:px-8">
+      <nav className="flex items-center px-2 mt-5 mb-0 py-3 bg-transparent justify-between lg:px-8">
         {/*----Barnd logo----*/}
         <div className="flex">
           <h3 className="text-black font-semibold text-sm lg:text-base">
