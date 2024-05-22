@@ -4,7 +4,7 @@ import Girlimg from '@/public/loftus.jpg'
 
 function ShopDropDownMenu() {
   return (
-    <div className="w-3/5 flex bg-white absolute top-32 left-[19%] shadow-xl  ">
+    <div className="w-3/5 hidden lg:flex z-30 bg-white absolute top-32 left-[19%] shadow-xl  ">
       <div className="p-8 basis-1/3">
         <ul className="text-gray-400 font-semibold text-xs">
           <li className="text-black py-2 font-semibold">Shop Pages</li>
@@ -34,7 +34,7 @@ function ShopDropDownMenu() {
 
       <div className="basis-1/3">
         <Image
-          className="object-cover  h-full w-full"
+          className="object-cover h-full w-full"
           src={Girlimg}
           width={700}
         />

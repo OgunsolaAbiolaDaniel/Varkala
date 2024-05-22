@@ -1,4 +1,3 @@
-// CountdownTimer.js
 'use client'
 import React, { useState, useEffect } from 'react';
 
@@ -33,10 +32,10 @@ const CountdownTimer = ({ targetDate }) => {
     }, 1000);
 
     return () => clearTimeout(timer);
-  }, [targetDate]); // Add targetDate to dependency array
+  }, [targetDate, timeLeft]); // Include timeLeft in the dependency array
 
   return (
-    <div className="bg-white px-8 py-8 shadow-lg mb-8 sm:shadow-none" id="countdown">
+    <div className="bg-white px-8 py-8 shadow-lg mb-8 sm:shadow-none sm:w-full" id="countdown">
       <div className="flex justify-between">
         <div className="w-1/4 text-center mb-4 sm:mb-0">
           <h6 className="text-2xl font-extrabold text-black mb-2">{timeLeft.days}</h6>

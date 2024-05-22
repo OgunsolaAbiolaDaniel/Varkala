@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import ProductText from '../ProductText/ProductText';
+import ProductText from '../../ProductText/ProductText';
 import products from '../ProductData/ProductData';
 
 const ProductCard = () => {
