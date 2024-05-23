@@ -6,8 +6,8 @@ import Womencategory from '@/public/category-women.jpg'
 
 function Secondsection() {
   return (
-    <div className="w-full py-24 px-3 grid flex-wrap bsm:grid-cols-2 mx-[16px] lg:w-full  xl:w-full xl:px-4">
-      <div className="w-fit mb-[3rem] rounded-lg overflow-hidden bsm:px-3 lg:w-full ">
+    <div className="w-full py-24 px-3 text-center flex bsm:grid flex-wrap bsm:grid-cols-2  lg:w-full xl:px-16 xl:py-48  xl:w-full xl:justify-center">
+      <div className="w-fit mb-[3rem] rounded-lg overflow-hidden bsm:px-3 lg:w-full">
         <Image
           src={Womencategory}
           width={400}

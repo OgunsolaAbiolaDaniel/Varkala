@@ -14,7 +14,7 @@ const ProductText = ({ productName, price, originalPrice, starRating }) => {
   };
   
   return (
-    <div className="px-2 py-1 w-72">
+    <div className="px-2 py-1 w-full">
 <h3 className="text-base mb-1">
   <a 
     href="#" 
@@ -23,7 +23,7 @@ const ProductText = ({ productName, price, originalPrice, starRating }) => {
     {productName}
   </a>
 </h3>
-      <div className="flex items-center mt-1 justify-between">
+      <div className="flex items-center mt-1 justify-between w-fit">
         <div className="flex items-center">
           {originalPrice && (
             <del className="text-sm text-gray-400 cursor-auto mr-2">

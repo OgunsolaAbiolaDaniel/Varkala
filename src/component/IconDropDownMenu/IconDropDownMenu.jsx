@@ -14,7 +14,7 @@ import { GiRolledCloth } from "react-icons/gi";
 
 function IconDropDownMenu() {
   return (
-    <div className=" w-3/4 hidden lg:flex flex-col z-30 bg-white absolute top-36 left-[23%] shadow-xl">
+    <div className="w-3/4 hidden lg:flex flex-col z-30 bg-white absolute top-36 left-[23%] shadow-xl">
       <div className="p-5 flex flex-col gap-10 basis-[80%]">
         <div className="flex">
           <IConInfo label={"Trouser"}>
@@ -60,8 +60,8 @@ function IconDropDownMenu() {
       </div>
 
       <div className="py-2 text-center basis-[10%] bg-[#bcac76] text-black text-sm">
-        Don't miss our biggest sales this year. Use the code "SUMMER35" at
-        checkout until Jun. 15!
+        Don't miss our biggest sales this year. Use the code &quot;
+        SUMMER35 &quot; at checkout until Jun. 15!
       </div>
     </div>
   );
