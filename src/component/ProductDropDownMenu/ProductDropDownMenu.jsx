@@ -30,6 +30,7 @@ function ProductDropDownMenu() {
           className="object-cover h-full w-full"
           src={Girlimg}
           width={700}
+          alt=''
         />
       </div>
     </div>

@@ -117,7 +117,7 @@ export default function SlideShow({ children }) {
      }, 3000);
 
      return () => clearInterval(intervalId);
-   }, [currentIndex]);
+   }, );
 {/*----On click Navigate to slide with same index position ------ */}
   function goToSlide(slideIndex) {
   setCurrentIndex(slideIndex)

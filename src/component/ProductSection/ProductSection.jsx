@@ -1,34 +1,35 @@
-import React from 'react';
-import Image from 'next/image';
-import ProductText from '../ProductText/ProductText';
-import products from '../ProductData/ProductData';
-import ProductNavbar from '../ProductNavbar/ProductNavbar';
+import React from "react";
+import Image from "next/image";
+import ProductText from "../ProductText/ProductText";
+import products from "../ProductData/ProductData";
+import ProductNav from "@/component/ProductNavbar/ProductNavbar";
 
-const ProductCard = () => {
+export default function ProductSection(){
   return (
-
-
-    <section id="Projects" className="container mx-auto px-4 py-8">
-    <ProductNavbar />
-      <div className="grid grid-cols-2 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-4 justify-items-center">
+    <section id="Projects" className=" w-full xl:px-12 px-3 py-24">
+      <ProductNav />
+      <div className=" w-full grid grid-cols-2 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-4 justify-items-center">
         {products.map((product, index) => (
           <div key={product.id} className="relative group w-full">
             {product.buttonText && (
               <button
                 className={`absolute top-4 left-2 p-1 rounded text-xs font-bold z-10 ${
-                  index % 3 === 0 ? 'bg-black' : index % 3 === 1 ? 'bg-gray-800' : 'bg-yellow-600'
+                  index % 3 === 0
+                    ? "bg-black"
+                    : index % 3 === 1
+                    ? "bg-gray-800"
+                    : "bg-yellow-600"
                 } text-white`}
               >
                 {product.buttonText}
               </button>
             )}
 
-            <div className="relative">
+            <div className="relative w-full">
               <Image
                 src={product.imageUrl}
                 alt={product.productName}
                 className="w-full object-cover transition-opacity duration-300 group-hover:opacity-0"
-                layout="responsive"
                 width={500}
                 height={300}
               />
@@ -36,15 +37,16 @@ const ProductCard = () => {
                 src={product.hoverImageUrl}
                 alt={`${product.productName} hover`}
                 className="w-full object-cover transition-opacity duration-300 opacity-0 group-hover:opacity-100 absolute top-0 left-0"
-                layout="responsive"
                 width={500}
                 height={300}
               />
               <div className="absolute h-14 left-0 bottom-0 w-full flex justify-between items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-2 bg-white bg-opacity-80 lg:bg-opacity-0 lg:group-hover:bg-opacity-80">
                 <span className="text-sm text-black font-base dark:text-white mr-2">
-                  <a href="#" className="hover:underline">Add to cart</a>
+                  <a href="#" className="hover:underline">
+                    Add to cart
+                  </a>
                 </span>
-                <div className="flex space-x-1">
+                <div className=" w-full flex space-x-1">
                   <svg
                     className="w-4 h-4 text-gray-600 dark:text-white hover:text-amber-200"
                     aria-hidden="true"
@@ -93,4 +95,4 @@ const ProductCard = () => {
   );
 };
 
-export default ProductCard;
+;

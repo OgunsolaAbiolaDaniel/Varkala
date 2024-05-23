@@ -1,5 +1,5 @@
 import Firstsection from "@/component/First-section/First-section";
-import ProductCard from "@/component/ProductSection/ProductCard";
+import ProductSection from "@/component/ProductSection/ProductSection";
 import Secondsection from "@/component/Second-section/Secondsection";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
       <main>
         <Firstsection />
         <Secondsection />
-        <ProductCard />
+        <ProductSection />
       </main>
     </div>
   );

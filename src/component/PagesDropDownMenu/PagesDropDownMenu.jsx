@@ -14,6 +14,7 @@ function PagesDropDownMenu() {
             className="object-cover h-full w-full"
             src={Christopher}
             width={100}
+            alt=''
           />
         </div>
 
@@ -70,6 +71,7 @@ function PagesDropDownMenu() {
             className="object-cover h-full w-full"
             src={IandooleyGirl}
             width={100}
+            alt=''
           />
         </div>
 
@@ -112,6 +114,7 @@ function PagesDropDownMenu() {
             className="object-cover h-full w-full"
             src={IandooleyBoy}
             width={100}
+            alt=''
           />
         </div>
 
@@ -154,6 +157,7 @@ function PagesDropDownMenu() {
             className="object-cover h-full w-full"
             src={ManTailor}
             width={100}
+            alt=''
           />
         </div>
 
