@@ -1,3 +1,4 @@
+import Dealsection from "@/component/Dealsection/Dealsection";
 import Firstsection from "@/component/First-section/First-section";
 import ProductSection from "@/component/ProductSection/ProductSection";
 import Secondsection from "@/component/Second-section/Secondsection";
@@ -9,6 +10,7 @@ export default function Home() {
         <Firstsection />
         <Secondsection />
         <ProductSection />
+        <Dealsection />
       </main>
     </div>
   );
