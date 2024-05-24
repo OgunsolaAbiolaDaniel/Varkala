@@ -6,7 +6,7 @@ import ProductNav from "@/component/ProductNavbar/ProductNavbar";
 
 export default function ProductSection(){
   return (
-    <section id="Projects" className=" w-full xl:px-12 px-3 py-24">
+    <section id="Projects" className=" w-full xl:px-12 px-3 py-20">
       <ProductNav />
       <div className=" w-full grid grid-cols-2 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-4 justify-items-center">
         {products.map((product, index) => (
