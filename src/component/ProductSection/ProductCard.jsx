@@ -1,7 +1,7 @@
 // ProductCard.jsx
 import React from 'react';
-import ProductText from '../ProductText/ProductText'; 
-import products from './ProductData/ProductData'; 
+import ProductText from '@/component/ProductText/ProductText'; 
+import products from '@/component/ProductData/ProductData'; 
 
 const ProductCard = () => {
   return (
