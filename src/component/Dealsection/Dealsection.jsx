@@ -28,21 +28,21 @@ export default function Dealsection() {
       <div className="w-full">
         <div className="w-full">
           <div className="p-6 py-24 lg:w-10/12 xl:w-6/12 lg:ml-5">
-            <p className="text-base mb-4 font-extrabold text-red-600 tracking-widest">
+            <div className="text-base mb-4 font-extrabold text-red-600 tracking-widest">
               D E A L O F T H E W E E K
-            </p>
+            </div>
             <h3 className="text-[26px] md:text-4xl font-extrabold mb-2">
               Oversized denim jacket
             </h3>
-            <p className="text-gray-500 mb-4 text-base font-semibold">
+            <div className="text-gray-500 mb-4 text-base font-semibold">
               <del className="mr-3">$129.00</del>
               <span>$79.00</span>
-            </p>
-            <p className="mb-6">
+            </div>
+            <div className="mb-6">
               <span className="badge bg-red-600 p-3 text-white rounded font-extrabold text-xs">
                 $50 off
               </span>
-            </p>
+            </div>
             <div className="w-full">
               <CountdownTimer targetDate={formattedTargetDate} />
             </div>
@@ -92,7 +92,7 @@ function CountdownTimer({ targetDate }) {
     }, 1000);
 
     return () => clearTimeout(timer);
-  }, [targetDate, timeLeft]); // Include timeLeft in the dependency array
+  },); // Include timeLeft in the dependency array
 
   return (
     <div
