@@ -21,7 +21,7 @@ export default function Header() {
 
   return (
     <div className="bg-transparent m-0 w-[100%] text-slate-700">
-      <div className="flex mt-2 items-center justify-between px-2">
+      <div className="flex  items-center justify-between px-2">
         {/*-----Lg screen top-------*/}
         <div className="hidden md:flex gap-4 items-center text-sm">
           <div className="flex items-center gap-2">
