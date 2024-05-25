@@ -60,8 +60,8 @@ function IconDropDownMenu() {
       </div>
 
       <div className="py-2 text-center basis-[10%] bg-[#bcac76] text-black text-sm">
-        Don't miss our biggest sales this year. Use the code &quot;
-        SUMMER35 &quot; at checkout until Jun. 15!
+        Don&apos;t miss our biggest sales this year. Use the code &quot; SUMMER35
+        &quot; at checkout until Jun. 15!
       </div>
     </div>
   );
