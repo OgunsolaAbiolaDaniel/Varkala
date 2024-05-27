@@ -1,3 +1,5 @@
+const { transform } = require("next/dist/build/swc");
+
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
