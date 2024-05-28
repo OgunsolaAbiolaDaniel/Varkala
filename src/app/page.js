@@ -4,6 +4,7 @@ import Footer from "@/component/Footer/Footer";
 import HistorySection from "@/component/HistorySection/HistorySection";
 import ProductSection from "@/component/ProductSection/ProductSection";
 import Secondsection from "@/component/Second-section/Secondsection";
+import BannerSection from "@/component/BannerServiceSection/BannerSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <ProductSection />
         <Dealsection />
         <HistorySection />
+        <BannerSection />
         <Footer />
       </main>
     </div>
