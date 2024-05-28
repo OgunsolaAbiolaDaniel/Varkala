@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import { RxCaretDown } from 'react-icons/rx';
 import { CiSearch } from 'react-icons/ci';
@@ -9,13 +10,15 @@ import { AiFillCaretDown } from "react-icons/ai";
 
 
 
-function Menubar({onClose}) {
+function Menubar({ onClose }) {
+  
   return (
     <>
       <div className="bg-white shadow-2xl px-4 gap-5 flex py-6 flex-col mx-0 justify-center lg:hidden">
         <ul className="flex flex-col gap-5 list-none">
           <li>
             <Barlist title={"Home"} />
+             
           </li>
           <li>
             <Barlist title={"Shop"} />
@@ -105,11 +108,13 @@ function Menubar({onClose}) {
 
 export default Menubar
  
-export function Barlist({ title }) {
+export function Barlist({ title,onClick }) {
   return (
-    <div className="flex justify-between items-center text-sm font-semibold">
-      <p>{title}</p>
-      <RxCaretDown />
-    </div>
+    <>
+      <div className="flex justify-between items-center text-sm font-semibold" onClick={onClick}>
+        <p>{title}</p>
+        <RxCaretDown />
+      </div>
+    </>
   );
 }
