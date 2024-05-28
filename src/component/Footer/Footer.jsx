@@ -257,7 +257,7 @@ const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap items-center text-sm">
             <div className="w-full lg:w-4/12 text-center lg:text-left">
-              <p className="mb-0">© 2022, Your company. All rights reserved.</p>
+              <p className="mb-0">© 2024, Your company. All rights reserved.</p>
             </div>
             <div className="w-full lg:w-8/12 mt-2 lg:mt-0 text-center lg:text-right">
               <ul className="list-none mb-0 space-y-2 lg:space-y-0 lg:space-x-4 lg:flex lg:justify-end lg:flex-wrap">
