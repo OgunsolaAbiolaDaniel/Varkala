@@ -66,7 +66,7 @@ const Footer = () => {
                 </div>
               </form>
             </div>
-            <div className="w-full lg:w-7/12">
+            <div className="w-full lg:w-7/12 sm:mt-8">
               <div className="flex flex-wrap lg:flex-nowrap">
                 <div className="w-full lg:w-4/12 mb-4 lg:mb-0">
                   <h6

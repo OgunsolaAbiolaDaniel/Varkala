@@ -4,11 +4,11 @@ import ProductText from "../ProductText/ProductText";
 import products from "../ProductData/ProductData";
 import ProductNav from "@/component/ProductNavbar/ProductNavbar";
 
-export default function ProductSection(){
+export default function ProductSection() {
   return (
-    <section id="Projects" className=" w-full xl:px-12 px-3 py-20">
+    <section id="Projects" className="w-full xl:px-12 px-3 py-20">
       <ProductNav />
-      <div className=" w-full grid grid-cols-2 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-4 justify-items-center">
+      <div className="w-full grid grid-cols-2 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-4 justify-items-center">
         {products.map((product, index) => (
           <div key={product.id} className="relative group w-full">
             {product.buttonText && (
@@ -40,15 +40,32 @@ export default function ProductSection(){
                 width={500}
                 height={300}
               />
-              <div className="absolute h-14 left-0 bottom-0 w-full flex justify-between items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-2 bg-white bg-opacity-80 lg:bg-opacity-0 lg:group-hover:bg-opacity-80">
+              <div className="absolute h-14 left-0 bottom-0 w-full flex justify-between items-center opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-300 p-2 bg-white bg-opacity-80 lg:bg-opacity-0 lg:group-hover:bg-opacity-80">
                 <span className="text-sm text-black font-base dark:text-white mr-2">
-                  <a href="#" className="hover:underline">
+                  <a href="#" className="hover:underline hidden lg:block">
                     Add to cart
                   </a>
-                </span>
-                <div className=" w-full flex space-x-1">
                   <svg
-                    className="w-4 h-4 text-gray-600 dark:text-white hover:text-amber-200"
+                    className="w-6 h-6 text-black dark:text-white block lg:hidden hover:text-amber-200"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1"
+                      d="M9 10V6a3 3 0 0 1 3-3v0a3 3 0 0 1 3 3v4m3-2 .917 11.923A1 1 0 0 1 17.92 21H6.08a1 1 0 0 1-.997-1.077L6 8h12Z"
+                    />
+                  </svg>
+                </span>
+                <div className="flex space-x-1">
+                  <svg
+                    className="w-6 h-6 text-black dark:text-white hover:text-amber-200"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -58,12 +75,12 @@ export default function ProductSection(){
                       stroke="currentColor"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
+                      strokeWidth="1" // Changed strokeWidth to 1
                       d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"
                     />
                   </svg>
                   <svg
-                    className="w-4 h-4 text-gray-600 dark:text-white hover:text-amber-200"
+                    className="w-6 h-6 text-black dark:text-white hover:text-amber-200"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -73,7 +90,7 @@ export default function ProductSection(){
                       stroke="currentColor"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
+                      strokeWidth="1" // Changed strokeWidth to 1
                       d="M8 4H4m0 0v4m0-4 5 5m7-5h4m0 0v4m0-4-5 5M8 20H4m0 0v-4m0 4 5-5m7 5h4m0 0v-4m0 4-5-5"
                     />
                   </svg>
@@ -93,6 +110,4 @@ export default function ProductSection(){
       </div>
     </section>
   );
-};
-
-;
+}
